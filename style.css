@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    font-family: 'Jost';
+}
+
+header {
+    width: 1920px;
+    height: 1080px;
+    background-color: #141024;
+    color: white;
+    position: relative;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px 0 80px;
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.nav-item:hover {
+    color: #D52027;
+    transition: color .2s linear;
+}
+
+.nav_robo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav_phone {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.info {
+    display: block;
+    margin: 344px 0 0 380px;
+}
+
+.info_robo {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20.48px;
+}
+
+.info_inner {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    background-color: #D52027;
+    padding: 25px 54px;
+}
+
+.image {
+    width: 783px;
+    height: 917px;
+    background: url(Group\ 211.png);
+    position: absolute;
+    left: 917px;
+    bottom: 0;
+}
+
+.robo_school {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 119px 0 0 380px;
+}
+
+.robo_school span {
+    font-weight: 600;
+}
+
+.statistic {
+    display: flex;
+    margin: 60px 0 120px 380px;
+}
+
+.statistic span {
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.statistic p {
+    font-size: 18px;
+    color: #141024;
+}
+
+.information {
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.teachers {
+    margin-right: 64px;
+    margin-left: 79px;
+}
+
+.after_course {
+    width: 1920px;
+    height: 485px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 100px 0 0 381px;
+}
+
+.card {
+    display: flex;
+    margin: 60px 0 0 381px;
+}
+
+.card_inner {
+    margin-right: 40px;
+}
+
+.card_inner span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card_inner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141024;
+}
+
+.knowledge {
+    margin-left: 47px;
+    margin-right: 81px;
+}
+
+.circle {
+    margin-left: 4px
+}
+
+#icon {
+    position: relative;
+    display: inline-block;
+}
+
+
+[data-title] {
+    position: relative;
+}
+
+[data-title]::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    bottom: 2.5em;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: white;
+    color: #141024;
+    padding: 15px 20px;
+    width: 251px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+[data-title]:hover::after {
+    opacity: 1;
+}
+
+.prof_coach {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 120px 0 0 380px;
+}
+
+.coach_info {
+    display: flex;
+    margin: 60px 0 0 380px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(0 0% 50%);
+}
+
+.coach {
+    margin-right: 40px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: #141024;
+    margin-bottom: 20px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #D52027;
+    text-decoration: none;
+}
+
+.scroll {
+    position: relative;
+    display: inline-block;
+}
+
+.circle_right {
+    position: absolute;
+    left: 1490px;
+    top: 60px;
+}
+
+.circle_left {
+    position: absolute;
+    left: 1440px;
+    top: 60px;
+}
+
+.scroll_line {
+    margin: 77px 0 0 380px;
+    background: url(Group\ 314.png);
+    width: 360px;
+    height: 5px;
+}
+
+.price_list {
+    margin: 120px 0 0 380px;
+}
+
+.choose_pack {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.price_cards {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card_pro {
+    width: 360px;
+    height: 500px;
+    color: white;
+    background-color: #141024;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+.price_card {
+    width: 360px;
+    height: 460px;
+    border: 1px solid #141024;
+    border-radius: 20px;
+    color: #141024;
+    display: block;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.pro {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.price_pro {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 97px;
+}
+
+.desc_pro {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 43px;
+}
+
+.card_btn_pro {
+    margin-top: 60px;
+}
+
+.card_btn_pro_inner {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    background-color: #D52027;
+    padding: 25px 78px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 77px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 43px;
+}
+
+.card_btn {
+    margin-top: 69px;
+}
+
+.card_btn_inner {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    background-color: #D52027;
+    padding: 25px 78px;
+    border-radius: 5px;
+}
+
+.application {
+    width: 1920px;
+    height: 460px;
+    background: url(Mask\ Group1.png);
+    background-color: #D52027;
+    margin-top: 120px;
+    display: flex;
+}
+
+.application_info {
+    margin: 106px 0 0 440px;
+    color: white;
+}
+
+.record {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.completion {
+    margin: 87px 0 0 144px;
+}
+
+.completion input {
+    width: 481px;
+    height: 64px;
+    font-size: 18px;
+    font-family: 'Jost';
+    border-radius: 5px;
+    border: none;
+    color: #282944;
+    outline: none;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.completion input[type=text],
+input[type=tel],
+input[type=email] {
+    padding-left: 19px;
+}
+
+.btn_send {
+    margin-top: 29px;
+}
+
+.send_ap {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    background-color: #141024;
+    padding: 19px 184px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 1920px;
+    height: 159px;
+    background: url(Rectangle\ 1317.png);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_name {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.foot_robo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cop_robo {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 19px;
+}
+
+.phone {
+    margin: 40px 100px 0 0;
+}
+
+.foot_phone {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
